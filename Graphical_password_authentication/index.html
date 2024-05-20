@@ -1,0 +1,38 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Authentication</title>
+</head>
+<body>
+  <h1>Signup</h1>
+  <form id="signupForm">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <p>Select images in order:</p>
+    <div id="imageContainer">
+      <img src="image.png" alt="Image 1">
+      <img src="image2.png" alt="Image 2">
+      
+    </div>
+    <button type="submit">Signup</button>
+  </form>
+
+  <h1>Login</h1>
+  <form id="loginForm">
+    <label for="username">Username:</label>
+    <input type="text" id="loginUsername" name="username" required>
+    <p>Select images in order:</p>
+    <div id="loginImageContainer">
+      <img src="image.png" alt="Image 1">
+      <img src="image2.png" alt="Image 2">
+      
+    </div>
+    <button type="submit">Login</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
